@@ -38,19 +38,15 @@ body {
   top: 4vh;
   z-index: 100;
   font-family: sans-serif;
-  justify-items: center;
 }
 #popup-title {
   font-size: 4vh;
-  margin-left: 30%;
-  margin-right: 30%;
   font-family: "Andy";
-  justify-self: center;
+  text-align: center;
 }
 #popup-content {
   font-size: 4vh;
   font-family: serif;
-  justify-self: left;
   margin-left: 3vw;
   margin-right: 2vw;
   overflow-y: scroll;

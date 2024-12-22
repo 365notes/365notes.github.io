@@ -452,6 +452,7 @@
             document.getElementById("popup").style.display = "none";
             document.getElementById("black").style.display = "none";
             document.body.classList.remove("no-scroll");
+            document.body.removeEventListener('touchmove', preventScrolling);
         }
         document.addEventListener('keydown', function (event) {
             if (event.key === 'Escape') {

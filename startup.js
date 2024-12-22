@@ -76,5 +76,12 @@ document.addEventListener("DOMContentLoaded", () => {
     document.getElementById("popup").style.display = "block";
     document.getElementById("black").style.display = "block";
     document.body.classList.add("no-scroll");
+
+    function preventScrolling(e) {
+      e.preventDefault();
+    }
+    document.body.addEventListener("touchmove", preventScrolling, {
+      passive: false,
+    });
   }
 });

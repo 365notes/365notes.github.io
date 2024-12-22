@@ -23,6 +23,9 @@ body {
   display: flex;
   justify-content: center;
 }
+.title h1 {
+  font-size: 2vw;
+}
 
 .popup {
   width: 95vw;
@@ -38,8 +41,9 @@ body {
   justify-items: center;
 }
 #popup-title {
-  font-size: 2vw;
+  font-size: 4vh;
   font-family: "Andy";
+  justify-self: center;
 }
 #popup-content {
   font-size: 4vh;
@@ -52,7 +56,7 @@ body {
   width: 87.5vw;
   border-style: solid;
   border-radius: 1vw;
-  border-width: 0.3vw;
+  border-width: calc(0.15vw + 0.15vh);
   padding: 0.5vw;
   border-color: #ff9ec5;
   user-select: text;
@@ -102,7 +106,6 @@ h2 {
   margin-top: 1vw;
   gap: 1vw; /* Add spacing between squares */
   margin-bottom: 3vh;
-  margin-left: 1vw;
 }
 
 .calendar .square {

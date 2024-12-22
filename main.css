@@ -1,0 +1,146 @@
+@font-face {
+  font-family: "Lofty";
+  src: url("fonts/lofty.otf") format("opentype");
+}
+@font-face {
+  font-family: "Andy";
+  src: url("fonts/andy.otf") format("opentype");
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Andy", sans-serif;
+  user-select: none;
+  background: linear-gradient(to bottom, #ffdfee, #ff5a9c);
+}
+.no-scroll {
+  overflow: hidden;
+}
+
+.title {
+  width: 100vw;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+}
+
+.popup {
+  width: 95vw;
+  height: 92vh;
+  display: flex;
+  background-color: white;
+  border-radius: 2vw;
+  position: fixed;
+  left: 2.5vw;
+  top: 4vh;
+  z-index: 100;
+  font-family: sans-serif;
+  justify-items: center;
+}
+#popup-title {
+  font-size: 2vw;
+  font-family: "Andy";
+}
+#popup-content {
+  font-size: 4vh;
+  font-family: serif;
+  justify-self: left;
+  margin-left: 3vw;
+  margin-right: 2vw;
+  overflow-y: scroll;
+  height: 66vh;
+  width: 87.5vw;
+  border-style: solid;
+  border-radius: 1vw;
+  border-width: 0.3vw;
+  padding: 0.5vw;
+  border-color: #ff9ec5;
+  user-select: text;
+}
+.black {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 50%;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  z-index: 99;
+}
+.close-btn {
+  font-size: 4vw;
+  width: 4vw;
+  height: 4vw;
+  margin: 0px;
+  position: absolute;
+  right: 1vw;
+  top: 1vw;
+  transition: transform 0.3s;
+  transform-origin: center;
+}
+.close-btn:hover {
+  transform: scale(1.1);
+}
+
+.month {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  justify-content: left;
+  font-size: 1.5vw;
+}
+h2 {
+  margin: 0px;
+}
+
+.calendar {
+  width: 100vw;
+  height: fit-content;
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping to the next row */
+  justify-content: left;
+  margin-top: 1vw;
+  gap: 1vw; /* Add spacing between squares */
+  margin-bottom: 3vh;
+  margin-left: 1vw;
+}
+
+.calendar .square {
+  width: calc(100vw / 7 - 1vw);
+  aspect-ratio: 1 / 1;
+  box-sizing: border-box;
+  border-radius: 1.5vw;
+  background-color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 3vw;
+
+  transition: transform 0.3s;
+  z-index: 2;
+}
+
+.square::before {
+  content: "";
+  width: 8vw; /* Same size as the square */
+  height: 8vw;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%; /* This creates the circle */
+  z-index: 3; /* Places the circle behind the text */
+}
+
+.calendar .allowed:hover {
+  background-color: white;
+  transform: scale(1.05);
+  cursor: pointer;
+}
+.calendar .disabled {
+  filter: brightness(0.9);
+}
+
+.calendar .square span {
+  transform: translateY(1.3vw);
+  z-index: 4;
+}

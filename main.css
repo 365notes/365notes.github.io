@@ -42,6 +42,8 @@ body {
 }
 #popup-title {
   font-size: 4vh;
+  margin-left: 30%;
+  margin-right: 30%;
   font-family: "Andy";
   justify-self: center;
 }

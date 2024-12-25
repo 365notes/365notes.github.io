@@ -132,6 +132,11 @@ h2 {
   z-index: 3; /* Places the circle behind the text */
 }
 
+.no-circle::before {
+  content: none; /* Remove any content that might be inserted by the ::before */
+  display: none; /* Alternatively, hide the ::before element completely */
+}
+
 .calendar .allowed:hover {
   background-color: white;
   transform: scale(1.05);

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const today = new Date();
-  const currentYear = 2025;
+  const currentYear = 2024;
   const currentMonth = today.getMonth();
   const currentDay = today.getDate();
   const months = [
@@ -40,10 +40,10 @@ document.addEventListener("DOMContentLoaded", () => {
       squares.forEach((square) => {
         const day = parseInt(square.textContent, 10);
 
-        if (
-          monthIndex < currentMonth ||
-          (monthIndex === currentMonth && day <= currentDay)
-        ) {
+        mon = monthIndex < currentMonth;
+        oth = monthIndex === currentMonth && day <= currentDay;
+        yr = today.getFullYear() == currentYear;
+        if ((mon || oth) && yr) {
           square.classList.add("allowed");
           square.onclick = function () {
             showPopup(monthIndex, day);

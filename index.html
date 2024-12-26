@@ -7,6 +7,10 @@
     <title>iloveyou</title>
 
     <link rel="stylesheet" href="main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
 </head>
 
 <body>
@@ -21,6 +25,12 @@
         <h1>365 notes to brighten your day:</h1>
     </div>
 
+    <div class="month extra-top-padding">
+        <h2>&nbsp;December 2024</h2>
+    </div>
+    <div class="calendar">
+        <div class="square allowed" onclick="showStarterPopup()"><span>25</span></div>
+    </div>
     <div class="month">
         <h2>&nbsp;January</h2>
     </div>
@@ -165,7 +175,7 @@
     <div class="month">
         <h2>&nbsp;May</h2>
     </div>
-    <div class="calendar" id="March">
+    <div class="calendar" id="May">
         <div class="square"><span>1</span></div>
         <div class="square"><span>2</span></div>
         <div class="square"><span>3</span></div>
@@ -464,6 +474,17 @@
                 closePopup();
             }
         });
+
+        function showStarterPopup() {
+            document.getElementById("popup-title").textContent = "December 25th, 2024";
+            document.getElementById("popup-content").textContent =
+                "Hi honey. Every day this year I want you to wake up to a note from me. Some might be long, and some might be short, but they have all been typed with much love. I hope you like it. Merry Christmas!";
+
+            // Display the popup
+            document.getElementById("popup").style.display = "block";
+            document.getElementById("black").style.display = "block";
+            document.body.classList.add("no-scroll");
+        }
     </script>
 </body>
 

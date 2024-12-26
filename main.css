@@ -94,6 +94,9 @@ body {
 h2 {
   margin: 0px;
 }
+.extra-top-padding {
+  margin-top: 5vh;
+}
 
 .calendar {
   width: 100vw;

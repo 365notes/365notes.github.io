@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const today = new Date();
-  const currentYear = today.getFullYear;
+  const currentYear = 2024;
   const currentMonth = today.getMonth();
   const currentDay = today.getDate();
   const months = [
@@ -64,11 +64,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // If a note is found, display it in the popup
     if (note) {
-      document.getElementById("popup-title").textContent = note.title;
-      document.getElementById("popup-content").textContent = note.content;
+      document.getElementById("popup-title").innerHTML = note.title;
+      document.getElementById("popup-content").innerHTML = note.content;
     } else {
-      document.getElementById("popup-title").textContent = "No Event";
-      document.getElementById("popup-content").textContent =
+      document.getElementById("popup-title").innerHTML = "No Event";
+      document.getElementById("popup-content").innerHTML =
         "There is no event for this day.";
     }
 

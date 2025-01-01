@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const today = new Date();
-  const currentYear = today.getFullYear;
+  const currentYear = 2025;
   const currentMonth = today.getMonth();
   const currentDay = today.getDate();
   const months = [

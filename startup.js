@@ -62,14 +62,33 @@ document.addEventListener("DOMContentLoaded", () => {
     // Find the matching note
     const note = notes.find((n) => n.date === dateStr);
 
-    // If a note is found, display it in the popup
+    const popupContent = document.getElementById("popup-content");
+
+    // Clear previous content
+    popupContent.innerHTML = "";
+
     if (note) {
       document.getElementById("popup-title").innerHTML = note.title;
-      document.getElementById("popup-content").innerHTML = note.content;
+
+      // If the note has content, add it
+      if (note.content) {
+        const contentPara = document.createElement("p");
+        contentPara.innerHTML = note.content;
+        popupContent.appendChild(contentPara);
+      }
+
+      // If the note has an image, add it
+      if (note.image) {
+        const img = document.createElement("img");
+        img.src = note.image;
+        img.alt = "Event Image";
+        img.style.width = "100%"; // Adjust as needed
+        img.style.borderRadius = "10px";
+        popupContent.appendChild(img);
+      }
     } else {
       document.getElementById("popup-title").innerHTML = "No Event";
-      document.getElementById("popup-content").innerHTML =
-        "There is no event for this day.";
+      popupContent.innerHTML = "There is no event for this day.";
     }
 
     // Display the popup

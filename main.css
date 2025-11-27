@@ -127,8 +127,8 @@ h2 {
 
 .square::before {
   content: "";
-  width: 6vw; /* Same size as the square */
-  height: 6vw;
+  width: 6.5vw; /* Same size as the square */
+  height: 6.5vw;
   position: absolute;
   background-color: white;
   border-radius: 50%; /* This creates the circle */

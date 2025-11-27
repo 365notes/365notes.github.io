@@ -133,6 +133,7 @@ h2 {
   background-color: white;
   border-radius: 50%; /* This creates the circle */
   z-index: 3; /* Places the circle behind the text */
+  filter: opacity(0.9);
 }
 
 .no-circle::before {

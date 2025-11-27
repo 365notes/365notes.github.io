@@ -119,7 +119,7 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 3vw;
+  font-size: 2.5vw;
 
   transition: transform 0.3s;
   z-index: 2;
@@ -127,8 +127,8 @@ h2 {
 
 .square::before {
   content: "";
-  width: 8vw; /* Same size as the square */
-  height: 8vw;
+  width: 6vw; /* Same size as the square */
+  height: 6vw;
   position: absolute;
   background-color: white;
   border-radius: 50%; /* This creates the circle */

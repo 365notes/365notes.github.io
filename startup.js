@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", () => {
                 const decodedContent = atob(note.content);
 
                 const contentPara = document.createElement("p");
-                contentPara.textContent = decodedContent;
+                contentPara.innerHTML = decodedContent;
                 popupContent.appendChild(contentPara);
             }
 

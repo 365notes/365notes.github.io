@@ -1,0 +1,527 @@
+<!-- 2025.html (2025) -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>365 Notes - 2025</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+
+<body>
+    <div class="black" id="black" style="display: none;"></div>
+    <div class="popup" id="popup" style="display: none;">
+        <p class="close-btn" onclick="closePopup()">X</p>
+        <p id="popup-title"></p>
+        <p id="popup-content"></p>
+    </div>
+
+    <div class="title">
+        <h1>365 notes to brighten your day:</h1>
+    </div>
+
+    <div class="month">
+        <a href="index.html" class="button-link">Home</a>
+    </div>
+
+    <div class="month extra-top-padding">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;December 2024</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar">
+        <div class="square allowed" onclick="showStarterPopup()"><span>25</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;January</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+
+    </div>
+    <div class="calendar" id="January">
+        <div class="square" style="background-image: url(images/ny.png); background-size: cover;"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square"><span>20</span></div>
+        <div class="square" style="background-image: url(images/bts.jpg); background-size: cover;"><span>21</span>
+        </div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+        <div class="square"><span>31</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;February</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="February">
+        <div class="square"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square no-circle" style="background-image: url(images/heart.png); background-size: cover;">
+            <span>14</span>
+        </div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square"><span>20</span></div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;March</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="March">
+        <div class="square"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square"><span>20</span></div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+        <div class="square"><span>31</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;April</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="April">
+        <div class="square"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square" style="background-image: url(images/easter.jpg); background-size: cover;"><span>20</span>
+        </div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;May</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="May">
+        <div class="square"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square"><span>20</span></div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+        <div class="square"><span>31</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;June</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="June">
+        <div class="square"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square"><span>20</span></div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;July</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="July">
+        <div class="square"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square" style="background-image: url(images/fw.jpg); background-size: cover;"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square no-circle" style="background-image: url(images/sc.jpg); background-size: cover;">
+            <span>11</span>
+        </div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square no-circle" style="background-image: url(images/gold.png); background-size: cover;">
+            <span>20</span>
+        </div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+        <div class="square"><span>31</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;August</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="August">
+        <div class="square"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square"><span>20</span></div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+        <div class="square"><span>31</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;September</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="September">
+        <div class="square" style="background-image: url(images/anny.jpg); background-size: cover;"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square"><span>20</span></div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;October</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="October">
+        <div class="square"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square"><span>20</span></div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+        <div class="square"><span>31</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;November</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="November">
+        <div class="square"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square"><span>20</span></div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square"><span>25</span></div>
+        <div class="square"><span>26</span></div>
+        <div class="square" style="background-image: url(images/turkey.jpeg); background-size: cover;"><span>27</span>
+        </div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+    </div>
+    <div class="month">
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+        <h2>&nbsp;December</h2>
+        <img class="flower-accent" src="images/accent.png" alt="flower accent">
+    </div>
+    <div class="calendar" id="December">
+        <div class="square"><span>1</span></div>
+        <div class="square"><span>2</span></div>
+        <div class="square"><span>3</span></div>
+        <div class="square"><span>4</span></div>
+        <div class="square"><span>5</span></div>
+        <div class="square"><span>6</span></div>
+        <div class="square"><span>7</span></div>
+        <div class="square"><span>8</span></div>
+        <div class="square"><span>9</span></div>
+        <div class="square"><span>10</span></div>
+        <div class="square"><span>11</span></div>
+        <div class="square"><span>12</span></div>
+        <div class="square"><span>13</span></div>
+        <div class="square"><span>14</span></div>
+        <div class="square"><span>15</span></div>
+        <div class="square"><span>16</span></div>
+        <div class="square"><span>17</span></div>
+        <div class="square"><span>18</span></div>
+        <div class="square"><span>19</span></div>
+        <div class="square"><span>20</span></div>
+        <div class="square"><span>21</span></div>
+        <div class="square"><span>22</span></div>
+        <div class="square"><span>23</span></div>
+        <div class="square"><span>24</span></div>
+        <div class="square" style="background-image: url(images/xmas.jpg); background-size: cover;"><span>25</span>
+        </div>
+        <div class=" square"><span>26</span></div>
+        <div class="square"><span>27</span></div>
+        <div class="square"><span>28</span></div>
+        <div class="square"><span>29</span></div>
+        <div class="square"><span>30</span></div>
+        <div class="square"><span>31</span></div>
+    </div>
+    <script src="startup.js"></script>
+    <script>
+        function closePopup() {
+            document.getElementById("popup").style.display = "none";
+            document.getElementById("black").style.display = "none";
+            document.body.classList.remove("no-scroll");
+        }
+        document.addEventListener('keydown', function (event) {
+            if (event.key === 'Escape') {
+                closePopup();
+            }
+        });
+
+        function showStarterPopup() {
+            document.getElementById("popup-title").textContent = "December 25th, 2024";
+            document.getElementById("popup-content").textContent =
+                "Hi honey. Every day this coming year I want you to wake up to a new note from me. Some might be long, and some might be short, but they have all been typed with much love. You should only be able to see the notes when their specific date arrives, and the site will work best on your computer. I hope you like it. Merry Christmas!";
+
+            // Display the popup
+            document.getElementById("popup").style.display = "block";
+            document.getElementById("black").style.display = "block";
+            document.body.classList.add("no-scroll");
+        }
+    </script>
+</body>
+
+</html>

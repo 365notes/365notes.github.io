@@ -51,9 +51,10 @@ document.addEventListener("DOMContentLoaded", () => {
 
             const mon = monthIndex < currentMonth;
             const oth = monthIndex === currentMonth && day <= currentDay;
-            const yr = today.getFullYear() === currentYear;
+            const yr = today.getFullYear() > currentYear;
+            const yr2 = today.getFullYear() === currentYear;
 
-            if ((mon || oth) && yr) {
+            if (yr || (yr2 && (mon || oth))) {
                 square.classList.add("allowed");
                 square.onclick = () => showPopup(monthIndex, day);
             } else {

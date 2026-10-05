@@ -1972,7 +1972,7 @@
         "content": "V293IGhvbmV5LCB0aGUgc3VtbWVyIGlzIGp1c3QgZmx5aW5nIGJ5LiBJdCBmZWVscyBsaWtlIGp1c3QgeWVzdGVyZGF5IHRoYXQgSSB3YXMgZHJpdmluZyBpbnRvIEthbnNhcyBDaXR5IGFuZCB5b3Ugd2VyZSBvZmYgaW4gS29yZWEuIEknbSBwcm91ZCBvZiB1cyBmb3IgZG9pbmcgZ29vZCBhdCB3b3JrIGFuZCBzdGF5aW5nIHVwIHdpdGggZXZlcnl0aGluZyBlbHNlIGxpa2Ugc2Nob29sIGZvciB5b3UuIEkgaG9wZSB5b3UgaGF2ZSBhIGdvb2QgZGF5IHRvZGF5LiBNdWFoLjxicj48YnI+TG92ZSw8YnI+Sm9leQ=="
     },
     {
-        "title": "July 1st",
+        "title": "July 8th",
         "date": "2026-7-8",
         "content": "R29vZCBtb3JuaW5nIHB1bXBraW4uIEknbSByZWFsbHkgc29ycnkgeW91J3ZlIGJlZW4gaGF2aW5nIHRyb3VibGVzIHNsZWVwaW5nIGxhdGVseS4gSSBrbm93IHRoYXQgaXQncyBoYXJkIGJ1dCBJIGhvcGUgdGhhdCB5b3Ugd2lsbCBnZXQgcGFzdCB0aGlzIHN0cmVzc2Z1bCB3ZWVrIGFuZCBmZWVsIGJldHRlci4gSSdtIGFsd2F5cyBoYXBweSB0byBoYXZlIGEgc2xlZXBvdmVyIHdpdGggeW91IGFuZCB3cmFwIHlvdSB1cCBhbmQga2VlcCB5b3Ugc2FmZS4gSSdsbCBzZWUgeW91IGxhdGVyIHRvZGF5LCBoYXZlIGEgZ29vZCBkYXkuIE11YWguPGJyPjxicj5Mb3ZlLDxicj5Kb2V5"
     },
@@ -1997,8 +1997,14 @@
         "content": "SGVhZGluZyBiYWNrIGhvbWUhIEknbGwgbWlzcyB5b3Ugd2hpbGUgd2UncmUgYmFjayBob21lIGJlZm9yZSBzY2hvb2wgc3RhcnRzIHVwLiBJIGhvcGUgeW91IGNhbiBnZXQgaG9tZSBzYWZlIGFuZCBzb3VuZCBhbmQgZ2V0IGFsbCB5b3VyIHBhY2tpbmcgZG9uZSBhbmQgc2VlIHNvbWUgZnJpZW5kcyBhbmQgZXZlcnl0aGluZy4gSSB3aWxsIHNlZSB5b3Ugc29vbi4gSSBsb3ZlIHlvdSBsb3RzLiBNdWFoLjxicj48YnI+TG92ZSw8YnI+Sm9leQ=="
     },
     {
-        "title": "August 15th",
-        "date": "2026-8-15",
-        "content": "SGkgbXkgZGVhci4gSSdtIGhlYWRpbmcgdXAgdG8gTGluY29sbiB0b2RheSEgSSdtIGEgbGl0dGxlIHN0cmVzc2VkIGxpa2UgYWx3YXlzIHdoZW4gSSBoYXZlIHRvIG1vdmUgYnV0IEknbSBhbHNvIHZlcnkgZXhjaXRlZCB0byBtb3ZlIGludG8gbXkgbmV3IGFwYXJ0bWVudCBhbmQgZ2V0IGFsbCBzZXR0bGVkIGZvciB0aGUgc2Nob29sIHllYXIuIElmIHlvdSBuZWVkIGFueXRoaW5nIGZyb20gbWUgcGxlYXNlIGxldCBtZSBrbm93LCBJJ2xsIGJlIHJpZ2h0IG5leHQgZG9vciB0aGlzIHllYXIhIEkga25vdyB0aGF0IHlvdSBoYXZlIGEgbG9uZyBjb3VwbGUgd2Vla3MgYWhlYWQgb2YgeW91IGJ1dCBJIGtub3cgdGhhdCB5b3Ugd2lsbCBkbyBhIGdyZWF0IGpvYi4gSSBsb3ZlIHlvdS4gTXVhaC48YnI+PGJyPkxvdmUsPGJyPkpvZXk="
+        "title": "September 1st",
+        "date": "2026-9-1",
+        "content": "SGkgbXkgZGVhciBJJ20gc29ycnkgSSBoYXZlIGJlZW4gbWlzc2luZyB5b3VyIG5vdGVzLiBSZW1lbWJlciBvdXIgMyB5ZWFyIGFubml2ZXJzYXJ5PyBJIGxvdmVkIGdvaW5nIHRvIEwncyB3aXRoIHlvdSBhbmQgaGF2aW5nIGEgbmljZSBjdXRlIGRpbm5lci4gSSBrbm93IHRoYXQgdGhlcmUgd2lsbCBiZSBsb3RzIG1vcmUgdG8gY29tZSwgZXNwZWNpYWxseSBvbmNlIHdlJ3JlIGluIEthbnNhcyBDaXR5IGFuZCBoYXZlIGEgd2hvbGUgbmV3IHBsYWNlIHRvIGV4cGxvcmUuIEkgbG92ZSB5b3UgbG90cy4gTXVhaC48YnI+PGJyPkxvdmUsPGJyPkpvZXk=",
+        "image": "note_images/anny_2026.jpeg"
+    },
+    {
+        "title": "October 4th",
+        "date": "2026-10-4",
+        "content": "SGVsbG8gbG92ZXkuIEkgaGFkIHRoZSBiZXN0IHdlZWsgd2l0aCB5b3UgdGhyb3VnaCBhbGwgb2YgdGhlIGhvbWVjb21pbmcgY3JhemluZXNzLiBJIGtub3cgdGhhdCBldmVuIHRob3VnaCBpdCB3YXMgaGVjdGljIHdlIHdpbGwgbG9vayBiYWNrIG9uIGl0IHdpdGggaGFwcHkgbWVtb3JpZXMuIEkgd2FzIGhhcHB5IHRvIGhhbmcgb3V0IHdpdGggeW91IGFuZCBldmVyeW9uZSBlbHNlIGluIG1vcnRhciBib2FyZC4gWW91IGFyZSBkb2luZyBhIGdyZWF0IGpvYiBvZiBsZWFkaW5nIG91ciBncm91cCBhbmQgZXZlcnlvbmUgY2FuIHNlZSB0aGF0LiBJIGxvdmUgeW91IGFsd2F5cy48YnI+PGJyPkxvdmUsPGJyPkpvZXk="
     }
 ]
